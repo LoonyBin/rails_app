@@ -12,6 +12,7 @@ end
 
 gem 'haml-rails'
 gem 'jquery-rails'
+gem 'simple_form'
 
 group :test, :development do
   gem 'sqlite3'
