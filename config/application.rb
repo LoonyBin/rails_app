@@ -26,6 +26,7 @@ module RailsApp
                         :helper_specs     => false,
                         :controller_specs => true,
                         :view_specs       => false
+      g.fixture_replacement :factory_girl, :dir => "spec/factories"
     end
 
     # Settings in config/environments/* take precedence over those specified here.
