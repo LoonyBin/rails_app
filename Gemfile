@@ -11,8 +11,13 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
 group :test, :development do
   gem 'sqlite3'
+
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
 end
 
 group :production do

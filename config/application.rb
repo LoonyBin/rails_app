@@ -21,6 +21,11 @@ module RailsApp
     config.generators do |g|
       g.stylesheets false
       g.helper false
+      g.test_framework  :rspec,
+                        :fixture          => true,
+                        :helper_specs     => false,
+                        :controller_specs => true,
+                        :view_specs       => false
     end
 
     # Settings in config/environments/* take precedence over those specified here.
