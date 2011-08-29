@@ -13,6 +13,7 @@ end
 gem 'haml-rails'
 gem 'inherited_resources'
 gem 'jquery-rails'
+gem 'paper_trail'
 gem 'simple_form'
 
 group :test, :development do
