@@ -10,6 +10,7 @@ group :assets do
   gem 'uglifier'
 end
 
+gem 'clearance'
 gem 'haml-rails'
 gem 'inherited_resources'
 gem 'jquery-rails'
