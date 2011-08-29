@@ -11,6 +11,7 @@ group :assets do
 end
 
 gem 'haml-rails'
+gem 'inherited_resources'
 gem 'jquery-rails'
 gem 'simple_form'
 
