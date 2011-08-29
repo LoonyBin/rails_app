@@ -10,6 +10,7 @@ group :assets do
   gem 'uglifier'
 end
 
+gem 'haml-rails'
 gem 'jquery-rails'
 
 group :test, :development do
