@@ -11,7 +11,7 @@ group :assets do
 end
 
 gem 'cancan'
-gem 'clearance'
+gem 'clearance_omniauth', :git => "git://github.com/LoonyBin/clearance_omniauth.git"
 gem 'haml-rails'
 gem 'inherited_resources'
 gem 'jquery-rails'
